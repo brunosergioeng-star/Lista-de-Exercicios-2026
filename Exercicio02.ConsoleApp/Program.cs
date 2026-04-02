@@ -21,5 +21,5 @@ double tanque = Convert.ToDouble(Console.ReadLine());
 
 double consumoMedio = deslocamento / tanque;
 
-Console.WriteLine($"O consume médio na viagem foi: {consumoMedio} Km/L");
+Console.WriteLine($"O consumo médio na viagem foi: {consumoMedio} Km/L");
 Console.ReadLine();
