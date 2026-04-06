@@ -14,7 +14,16 @@ Double pesoSegundaNota = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Digite o valor da segunda nota: ");
 Double SegundaNota = Convert.ToDouble(Console.ReadLine());
 
-Double Media = (pesoPrimeiraNota * primeiraNota) + (pesoSegundaNota * SegundaNota) / (primeiraNota + SegundaNota);
+Double primeiraMedia = primeiraNota * pesoPrimeiraNota;
+Console.WriteLine("Primeira nota em relevancia a o peso = " + primeiraMedia);
+
+Double segundaMedia = SegundaNota * pesoSegundaNota;
+Console.WriteLine("Primeira nota em relevancia a o peso = " + segundaMedia);
+
+Double somaNotas = primeiraMedia + segundaMedia;
+Double somaPeso = pesoPrimeiraNota + pesoSegundaNota;
+Double Media = somaNotas / somaPeso;
+
 Console.WriteLine($"A média ponderada do aluno é: {Media}");
 
 Console.ReadLine();
