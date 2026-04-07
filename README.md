@@ -46,3 +46,37 @@ que C.
     b. Pesquise sobre “fatorial”
 
 10. Escreva um programa que imprima os números de 1 a 100 em ordem crescente, substituindo os números múltiplos de 3 pela palavra "Fizz" e os múltiplos de 5 pela palavra "Buzz". Para números que são múltiplos de ambos, use "FizzBuzz".
+
+## Como utilizar
+
+### Clone o Repositório:
+
+```
+git clone https://github.com/brunosergioeng-star/Lista-de-Exercicios-2026
+
+````
+
+### Navegue até a pasta raiz da solução
+
+```
+cd lista-de-exercicios-2025
+```
+
+### Restaure as dependências
+```
+dotnet restore
+````
+
+### Navegue até a pasta do projeto
+```
+cd ListaDeExercicios.ConsoleApp
+```
+
+### Execute o projeto
+```
+dotnet run
+```
+
+## Requisitos
+
+.NET SDK (recomendado .NET 8.0 ou superior) para compilação e execução do projeto.
